@@ -13,7 +13,7 @@ function onFormSubmit(event) {
     email: form.email.value,
     message: form.message.value,
   };
-
+  console.log(formData);
   localStorage.removeItem(STORAGE_KEY);
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
   event.currentTarget.reset();
