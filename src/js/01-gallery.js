@@ -20,9 +20,9 @@ function createElements() {
 }
 createElements();
 
-// const lightbox = new SimpleLightbox('.gallery a', {
-//   captions: true,
-//   captionsData: 'alt',
-//   captionPosition: 'bottom',
-//   captionDelay: '250',
-// });
+const lightbox = new SimpleLightbox('.gallery a', {
+  captions: true,
+  captionsData: 'alt',
+  captionPosition: 'bottom',
+  captionDelay: '250',
+});
